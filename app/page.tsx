@@ -1,103 +1,140 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
+      {/* Navigation */}
+      <nav className="bg-white shadow-sm">
+        <div className="max-w-6xl mx-auto px-4 py-4">
+          <div className="flex justify-between items-center">
+            <h1 className="text-2xl font-bold text-gray-800">Muhammad Abu Bakar</h1>
+            <div className="flex space-x-6">
+              <a href="#about" className="text-gray-600 hover:text-blue-600 transition">About</a>
+              <a href="#education" className="text-gray-600 hover:text-blue-600 transition">Education</a>
+              <a href="#projects" className="text-gray-600 hover:text-blue-600 transition">Projects</a>
+              <a href="#skills" className="text-gray-600 hover:text-blue-600 transition">Skills</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
+      {/* Hero Section */}
+      <section className="max-w-6xl mx-auto px-4 py-20 text-center">
+        <h1 className="text-5xl font-bold text-gray-800 mb-6">
+          Hi, I'm <span className="text-blue-600">Muhammad Abu Bakar</span>
+        </h1>
+        <p className="text-xl text-gray-600 mb-8">
+          ML Engineer | AI Enthusiast | MSDS Student at ITU Lahore
+        </p>
+        <div className="flex justify-center space-x-4">
+          <a href="#projects" className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition">
+            View My Work
           </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
+          <a href="#contact" className="border border-blue-600 text-blue-600 px-6 py-3 rounded-lg hover:bg-blue-50 transition">
+            Contact Me
           </a>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="max-w-4xl mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">About Me</h2>
+        <div className="bg-white rounded-2xl shadow-lg p-8">
+          <p className="text-lg text-gray-600 leading-relaxed">
+            I am a passionate Machine Learning Engineer and AI enthusiast currently pursuing MSDS at 
+            Information Technology University (ITU) Lahore. I completed my BSEE from ITU with Dean's Honor Letter 
+            in my last semester. My focus is on developing efficient AI solutions for real-world problems.
+          </p>
+        </div>
+      </section>
+
+      {/* Education Section */}
+      <section id="education" className="max-w-4xl mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Education</h2>
+        <div className="space-y-6">
+          <div className="bg-white rounded-2xl shadow-lg p-6">
+            <h3 className="text-xl font-semibold text-gray-800">MS in Data Science</h3>
+            <p className="text-blue-600 mb-2">Information Technology University (ITU), Lahore</p>
+            <p className="text-gray-600">Current Student</p>
+          </div>
+          <div className="bg-white rounded-2xl shadow-lg p-6">
+            <h3 className="text-xl font-semibold text-gray-800">BSc in Electrical Engineering</h3>
+            <p className="text-blue-600 mb-2">Information Technology University (ITU), Lahore</p>
+            <p className="text-gray-600">Graduated with Dean's Honor Letter</p>
+          </div>
+          <div className="bg-white rounded-2xl shadow-lg p-6">
+            <h3 className="text-xl font-semibold text-gray-800">Cloud Applied Gen AI Engineer</h3>
+            <p className="text-blue-600 mb-2">PIAIC</p>
+            <p className="text-gray-600">Completed Certification</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Section */}
+      <section id="projects" className="max-w-4xl mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Projects</h2>
+        <div className="bg-white rounded-2xl shadow-lg p-8">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+            AI-Based Portable Video Analytics on Low-Powered Devices
+          </h3>
+          <p className="text-gray-600 leading-relaxed">
+            Developed an efficient computer vision system optimized for low-powered devices, enabling 
+            real-time video analytics with minimal computational resources. The project focuses on 
+            model optimization and edge computing for practical AI deployment.
+          </p>
+        </div>
+      </section>
+
+      {/* Skills Section */}
+      <section id="skills" className="max-w-4xl mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Skills</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="bg-white rounded-2xl shadow-lg p-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Technical Skills</h3>
+            <ul className="space-y-2 text-gray-600">
+              <li>• Machine Learning & AI</li>
+              <li>• SQL & Database Management</li>
+              <li>• Python Programming</li>
+              <li>• Cloud Computing</li>
+              <li>• Generative AI</li>
+              <li>• SDK Agents AI (Level 1 & 2 Certified)</li>
+            </ul>
+          </div>
+          <div className="bg-white rounded-2xl shadow-lg p-6">
+            <h3 className="text-xl font-semibold text-gray-800 mb-4">Domains</h3>
+            <ul className="space-y-2 text-gray-600">
+              <li>• Machine Learning Engineering</li>
+              <li>• AI Model Optimization</li>
+              <li>• Edge Computing</li>
+              <li>• Computer Vision</li>
+              <li>• Data Science</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section id="contact" className="max-w-4xl mx-auto px-4 py-16">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Get In Touch</h2>
+        <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
+          <p className="text-lg text-gray-600 mb-6">
+            I'm always interested in new opportunities and collaborations in the AI/ML domain.
+          </p>
+          <div className="space-y-4">
+            <p className="text-gray-700">
+              <strong>Email:</strong> your-email@example.com
+            </p>
+            <p className="text-gray-700">
+              <strong>Education:</strong> Information Technology University, Lahore
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-gray-800 text-white py-8">
+        <div className="max-w-6xl mx-auto px-4 text-center">
+          <p>&copy; 2024 Muhammad Abu Bakar. All rights reserved.</p>
+        </div>
       </footer>
-    </div>
-  );
+    </main>
+  )
 }
