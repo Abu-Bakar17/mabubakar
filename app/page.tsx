@@ -26,10 +26,7 @@ export default function Home() {
             <div className="lg:col-span-1 flex justify-center">
               <div className="relative">
                 <div className="w-64 h-64 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
-                  {/* Replace with your actual profile image */}
-                  <div className="w-60 h-60 bg-gray-200 rounded-full flex items-center justify-center">
-                    <span className="text-gray-500 text-sm">Your Photo Here</span>
-                  </div>
+   
                   {/* If you have photo, use this instead:
                   <Image 
                     src="/profile.jpg" 
