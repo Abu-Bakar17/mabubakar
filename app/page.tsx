@@ -19,7 +19,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-4 py-20 text-center">
         <h1 className="text-5xl font-bold text-gray-800 mb-6">
-          Hi, I'm <span className="text-blue-600">Muhammad Abu Bakar</span>
+          Hi, I&apos;m <span className="text-blue-600">Muhammad Abu Bakar</span>
         </h1>
         <p className="text-xl text-gray-600 mb-8">
           ML Engineer | AI Enthusiast | MSDS Student at ITU Lahore
@@ -40,7 +40,7 @@ export default function Home() {
         <div className="bg-white rounded-2xl shadow-lg p-8">
           <p className="text-lg text-gray-600 leading-relaxed">
             I am a passionate Machine Learning Engineer and AI enthusiast currently pursuing MSDS at 
-            Information Technology University (ITU) Lahore. I completed my BSEE from ITU with Dean's Honor Letter 
+            Information Technology University (ITU) Lahore. I completed my BSEE from ITU with Dean&apos;s Honor Letter 
             in my last semester. My focus is on developing efficient AI solutions for real-world problems.
           </p>
         </div>
@@ -58,7 +58,7 @@ export default function Home() {
           <div className="bg-white rounded-2xl shadow-lg p-6">
             <h3 className="text-xl font-semibold text-gray-800">BSc in Electrical Engineering</h3>
             <p className="text-blue-600 mb-2">Information Technology University (ITU), Lahore</p>
-            <p className="text-gray-600">Graduated with Dean's Honor Letter</p>
+            <p className="text-gray-600">Graduated with Dean&apos;s Honor Letter</p>
           </div>
           <div className="bg-white rounded-2xl shadow-lg p-6">
             <h3 className="text-xl font-semibold text-gray-800">Cloud Applied Gen AI Engineer</h3>
@@ -116,7 +116,7 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Get In Touch</h2>
         <div className="bg-white rounded-2xl shadow-lg p-8 text-center">
           <p className="text-lg text-gray-600 mb-6">
-            I'm always interested in new opportunities and collaborations in the AI/ML domain.
+            I&apos;m always interested in new opportunities and collaborations in the AI/ML domain.
           </p>
           <div className="space-y-4">
             <p className="text-gray-700">
