@@ -158,7 +158,7 @@ export default function Home() {
                 <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">Graduated</span>
               </div>
               <p className="text-blue-600 font-medium mb-2">Information Technology University (ITU), Lahore</p>
-              <p className="text-gray-600">Dean&apos;s Honor Letter In Lat Semester </p>
+              <p className="text-gray-600">Dean&apos;s Honor Letter In Last Semester </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
