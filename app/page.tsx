@@ -158,7 +158,7 @@ export default function Home() {
                 <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">Graduated</span>
               </div>
               <p className="text-blue-600 font-medium mb-2">Information Technology University (ITU), Lahore</p>
-              <p className="text-gray-600">Dean&apos;s Honor Letter | GPA: 3.8/4.0</p>
+              <p className="text-gray-600">Dean&apos;s Honor Letter </p>
             </div>
 
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
@@ -231,7 +231,7 @@ export default function Home() {
             and challenging projects in the AI/ML domain.
           </p>
           <div className="space-y-4 text-lg">
-            <p>📧 <strong>Email:</strong> your-email@example.com</p>
+            <p>📧 <strong>Email:</strong> elec.engg.itu@gmail.com</p>
             <p>🎓 <strong>Education:</strong> Information Technology University, Lahore</p>
             <p>📍 <strong>Location:</strong> Lahore, Pakistan</p>
           </div>
