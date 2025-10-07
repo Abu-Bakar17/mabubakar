@@ -155,7 +155,7 @@ export default function Home() {
 
             <div className="bg-white rounded-xl p-6 shadow-sm border border-gray-100">
               <div className="flex justify-between items-start mb-2">
-                <h3 className="text-xl font-semibold text-gray-900">BSc in Electrical Engineering</h3>
+                <h3 className="text-xl font-semibold text-gray-900">BS in Electrical Engineering</h3>
                 <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">Graduated</span>
               </div>
               <p className="text-blue-600 font-medium mb-2">Information Technology University (ITU), Lahore</p>
@@ -242,7 +242,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-8 px-6">
         <div className="max-w-6xl mx-auto text-center">
-          <p>&copy; 2024 Muhammad Abu Bakar. All rights reserved.</p>
+          <p>&copy; 2025 Muhammad Abu Bakar. All rights reserved.</p>
           <p className="text-gray-400 mt-2">Built with Next.js and deployed on Vercel</p>
         </div>
       </footer>
