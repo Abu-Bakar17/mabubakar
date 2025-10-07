@@ -243,7 +243,7 @@ export default function Home() {
       <footer className="bg-gray-800 text-white py-8 px-6">
         <div className="max-w-6xl mx-auto text-center">
           <p>&copy; 2025 Muhammad Abu Bakar. All rights reserved.</p>
-       
+          <p className="text-gray-400 mt-2">Built with Next.js and deployed on Vercel</p>
         </div>
       </footer>
     </main>
