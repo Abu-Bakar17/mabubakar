@@ -27,15 +27,16 @@ export default function Home() {
               <div className="relative">
                 <div className="w-64 h-64 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
    
-                  {/* If you have photo, use this instead:
+                  
                   <Image 
                     src="/profile.jpg" 
                     alt="Muhammad Abu Bakar"
                     width={240}
                     height={240}
-                    className="rounded-full object-cover"
+                    className="rounded-full object-cover w-60 h-60"
+                    priority
                   />
-                  */}
+      
                 </div>
                 <div className="absolute -bottom-4 -right-4 bg-green-500 text-white px-4 py-2 rounded-full text-sm font-medium">
                   Available for work
